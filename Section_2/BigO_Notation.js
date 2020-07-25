@@ -42,7 +42,7 @@ console.time("Print All Pairs Funct")
 printAllPairs(100)
 console.timeEnd("Print All Pairs Funct")
 
-// Logging at least, or a max of 5
+// Logging at least, or a max of 5  O(n)
 function logAtLeast5(n) {
     for (var i = 1; i <= Math.max(5, n); i++){
         return (i)
@@ -51,3 +51,14 @@ function logAtLeast5(n) {
 console.time("Log Five")
 logAtLeast5(100)
 console.timeEnd("Log Five")
+
+
+// Logging at least, or a min num of times, O(1)
+function log_min5(n) {
+    for (var i = 1; i <= Math.min(5, n); i++){
+        return (i)
+    }
+}
+console.time("Log Six")
+log_min5(100)
+console.timeEnd("Log Six")
