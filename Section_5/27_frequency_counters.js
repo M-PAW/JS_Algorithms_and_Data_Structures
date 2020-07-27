@@ -11,9 +11,6 @@
 
 */
 
-// Test Data
-arr1 = [1,2,3]
-arr2 = [1,4,9]
 
 /*
     Write a function called same, which accepts two arrays.
@@ -38,6 +35,10 @@ function same(arr1,arr2) {
     }
     return true
 }
+
+// Test Data
+arr1 = [1,2,3]
+arr2 = [1,4,9]
 
 // Test and Run-time
 console.time("Test 1")
